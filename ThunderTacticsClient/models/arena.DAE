@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Tiby</author>
+      <authoring_tool>OpenCOLLADA for 3ds Max;  Version: 1.3.1;  Revision: 847M;  Platform: x64;  Configuration: Release_Max2010_static</authoring_tool>
+    </contributor>
+    <created>2012-11-23T12:34:17</created>
+    <modified>2012-11-23T12:34:17</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="ColorEffectR177G27B88">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <ambient>
+              <color>0.6941177 0.1058824 0.345098 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.6941177 0.1058824 0.345098 1</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent>
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="ColorEffectR177G27B88-material" name="ColorEffectR177G27B88-material">
+      <instance_effect url="#ColorEffectR177G27B88"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geom-Plane01" name="Plane01">
+      <mesh>
+        <source id="geom-Plane01-positions">
+          <float_array id="geom-Plane01-positions-array" count="24">-79.49741 -79.06874 9.53674e-7 80.50259 -79.06874 9.53674e-7 -79.49741 80.93126 9.53674e-7 80.50259 80.93126 9.53674e-7 -79.47466 -79.1098 50 80.52534 -79.1098 50 -79.47466 80.8902 50 80.52534 80.8902 50</float_array>
+          <technique_common>
+            <accessor source="#geom-Plane01-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Plane01-normals">
+          <float_array id="geom-Plane01-normals-array" count="66">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0.9999996 8.21228e-4 0 0.9999996 8.21228e-4 0 0.9999996 8.21228e-4 0 0.9999996 8.21228e-4 -0.9999999 0 4.55017e-4 -0.9999999 0 4.55017e-4 -0.9999999 0 4.55017e-4 -0.9999999 0 4.55017e-4 0 -0.9999997 -8.21228e-4 0 -0.9999997 -8.21228e-4 0 -0.9999997 -8.21228e-4 0 -0.9999997 -8.21228e-4 0.9999999 0 -4.55017e-4 0.9999999 0 -4.55017e-4 0.9999999 0 -4.55017e-4 0.9999999 0 -4.55017e-4</float_array>
+          <technique_common>
+            <accessor source="#geom-Plane01-normals-array" count="22" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Plane01-map1">
+          <float_array id="geom-Plane01-map1-array" count="48">-80 -80 1.90735e-6 80 -80 1.90735e-6 -80 80 1.90735e-6 80 80 1.90735e-6 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0</float_array>
+          <technique_common>
+            <accessor source="#geom-Plane01-map1-array" count="16" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Plane01-map1-textangents">
+          <float_array id="geom-Plane01-map1-textangents-array" count="66">1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#geom-Plane01-map1-textangents-array" count="22" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Plane01-map1-texbinormals">
+          <float_array id="geom-Plane01-map1-texbinormals-array" count="66">0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -8.21228e-4 0.9999997 0 -8.21228e-4 0.9999997 0 -8.21228e-4 0.9999997 0 -8.21228e-4 0.9999997 4.55017e-4 0 0.9999999 4.55017e-4 0 0.9999999 4.55017e-4 0 0.9999999 4.55017e-4 0 0.9999999 0 -8.21228e-4 0.9999997 0 -8.21228e-4 0.9999997 0 -8.21228e-4 0.9999997 0 -8.21228e-4 0.9999997 4.55017e-4 0 0.9999999 4.55017e-4 0 0.9999999 4.55017e-4 0 0.9999999 4.55017e-4 0 0.9999999</float_array>
+          <technique_common>
+            <accessor source="#geom-Plane01-map1-texbinormals-array" count="22" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-Plane01-vertices">
+          <input semantic="POSITION" source="#geom-Plane01-positions"/>
+        </vertices>
+        <triangles material="ColorMaterial" count="10">
+          <input semantic="VERTEX" source="#geom-Plane01-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#geom-Plane01-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#geom-Plane01-map1" offset="2" set="0"/>
+          <input semantic="TEXTANGENT" source="#geom-Plane01-map1-textangents" offset="3" set="1"/>
+          <input semantic="TEXBINORMAL" source="#geom-Plane01-map1-texbinormals" offset="3" set="1"/>
+          <p>3 0 3 0 2 1 2 1 1 2 1 2 1 3 1 3 2 4 2 4 0 5 0 5 1 6 9 6 0 7 8 7 5 8 11 8 4 9 10 9 5 8 11 8 0 7 8 7 3 10 5 10 1 11 4 11 7 12 7 12 5 13 6 13 7 12 7 12 1 11 4 11 2 14 9 14 3 15 8 15 6 16 11 16 7 17 10 17 6 16 11 16 3 15 8 15 0 18 5 18 2 19 4 19 4 20 7 20 6 21 6 21 4 20 7 20 2 19 4 19</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>0 0 0</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight"/>
+      </node>
+      <node id="node-Plane01" name="Plane01">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node>
+          <matrix>1 0 0 79.05328 0 1 0 -81.80536 0 0 1 0 0 0 0 1</matrix>
+          <instance_geometry url="#geom-Plane01">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="ColorMaterial" target="#ColorEffectR177G27B88-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MaxScene"/>
+  </scene>
+</COLLADA>
