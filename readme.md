@@ -1,9 +1,10 @@
-Thunder Tactics
-===============
+# Thunder Tactics
 
 The old version of Thunder Tactics as it was last modified in March 2013. This
 code was written together with [Tiberiu Pasat][1]. I published it here because
 it was developed on the SVN of [FCS][2] which is private.
+
+![Thunder Tactics screenshot.](screenshot.jpg)
 
 * Read the [Technical Report][3].
 * View some demos: [first][4], [second][5].
