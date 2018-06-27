@@ -1,3 +1,7 @@
+# This repository has been moved to [gitlab.com/paul-nechifor/tt](http://gitlab.com/paul-nechifor/tt).
+
+Old readme:
+
 # Thunder Tactics
 
 The old version of Thunder Tactics as it was last modified in March 2013. This
